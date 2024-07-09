@@ -6,7 +6,7 @@ NewsApp is a React Native application developed exclusively for the Android envi
 - React Native: For building the mobile application.
 - TypeScript: For type safety.
 - NewsAPI: For fetching news articles.
-- NewsAPI Key from API Key from [https://newsapi.org](https://newsapi.org/) 
+- NewsAPI Key from [https://newsapi.org](https://newsapi.org/) 
 
 [Learn more about NewsAPI](https://newsapi.org/docs)
 
