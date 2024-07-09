@@ -1,0 +1,57 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/LibreFranklinBlack.ttf",
+      "sha1": "74d1d1f85d6bd0def4442b4091512492170e2523"
+    },
+    {
+      "path": "assets/fonts/LibreFranklinBold.ttf",
+      "sha1": "5d3ab0f6672c6dae445babbb5f408cd40d5854a0"
+    },
+    {
+      "path": "assets/fonts/LibreFranklinExtraBold.ttf",
+      "sha1": "ba18dc92cd9a3d42a93d66e3b3bd3dfa3aa84287"
+    },
+    {
+      "path": "assets/fonts/LibreFranklinExtraLight.ttf",
+      "sha1": "fd7d944efa10dec02646d1717dca55063beb6b3b"
+    },
+    {
+      "path": "assets/fonts/LibreFranklinLight.ttf",
+      "sha1": "3eaee14433055e4276233c6eb932b8be8ea86b52"
+    },
+    {
+      "path": "assets/fonts/LibreFranklinMedium.ttf",
+      "sha1": "fa362334db83d1fe60e60378ecb6e84778e6b8ed"
+    },
+    {
+      "path": "assets/fonts/LibreFranklinRegular.ttf",
+      "sha1": "21a4974581c33c25b55a799ad454c41db36d94af"
+    },
+    {
+      "path": "assets/fonts/LibreFranklinSemiBold.ttf",
+      "sha1": "d5add612bfe77b7f9146c48b95d52d375e7349d1"
+    },
+    {
+      "path": "assets/fonts/LibreFranklinThin.ttf",
+      "sha1": "806bc04b5351098d577dc3a93df55fc2bc939531"
+    },
+    {
+      "path": "assets/fonts/MerriweatherBlack.ttf",
+      "sha1": "88c66bb14b3a385bde006f8605b45aff89c9612b"
+    },
+    {
+      "path": "assets/fonts/MerriweatherBold.ttf",
+      "sha1": "28efe4ae580e7aac679a268003b58aba5a82a877"
+    },
+    {
+      "path": "assets/fonts/MerriweatherLight.ttf",
+      "sha1": "008fe3f5da1e77b68398894a62b2dad94e9f50d1"
+    },
+    {
+      "path": "assets/fonts/MerriweatherRegular.ttf",
+      "sha1": "2cbe1abb3797149d593a90ced7e3c9fa99af50ca"
+    }
+  ]
+}
