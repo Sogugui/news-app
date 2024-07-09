@@ -1,79 +1,60 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# NewsApp Documentation
+## Overview
+NewsApp is a React Native application developed exclusively for the Android environment. It displays a list of news articles fetched from the NewsAPI. The front page shows a list of news articles with the first article featuring a full-width image and subsequent articles displaying a square image on the right-hand side. Users can click on an article to navigate to a detailed page displaying the full description of the article.
 
-# Getting Started
+## Tech Stack 
+- React Native: For building the mobile application.
+- TypeScript: For type safety.
+- NewsAPI: For fetching news articles.
+- NewsAPI Key from API Key from [https://newsapi.org](https://newsapi.org/) 
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+[Learn more about NewsAPI](https://newsapi.org/docs)
 
-## Step 1: Start the Metro Server
-
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
-
-To start Metro, run the following command from the _root_ of your React Native project:
-
+## Installation
+1.Clone the repository:
 ```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
+git clone https://github.com/your-username/news-app.git
+cd news-app
 ```
-
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
+2.Install the dependencies:
 ```bash
-# using npm
+npm install
+# or
+yarn install
+```
+3.Run the application:
+```bash
 npm run android
-
-# OR using Yarn
-yarn android
 ```
+## Features
+- Home Screen: Displays a list of news articles with different layouts for the first article and subsequent articles.
+- Article Details: Navigates to a screen showing the full description of the selected article.
 
-### For iOS
+## Components 
+### HomeScreen
+The *HomeScreen* component fetches and displays the list of news articles. The first article has a full-width image, while the rest have a smaller image on the right-hand side. The fetch operation is performed through a custom hook called useNews.
 
-```bash
-# using npm
-npm run ios
+**State**
+- articles: An array of news articles fetched from the NewsAPI.
+- isLoading: A boolean indicating if the articles are being loaded.
 
-# OR using Yarn
-yarn ios
-```
+**Methods**
+- useNews: A custom hook that fetches news articles.
+- onPress: A function that navigates to the Article screen when an article is clicked.
+- renderItem: A function that renders each article in the list.
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+## ArticleScreen
+The *ArticleScreen* component displays the full description of the selected article.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+**Props**
+- route: Contains the article passed from the HomeScreen
 
-## Step 3: Modifying your App
+## Demo
 
-Now that you have successfully run the app, let's modify it.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
-## Congratulations! :tada:
 
-You've successfully run and modified your React Native App. :partying_face:
 
-### Now what?
+https://github.com/Sogugui/news-app/assets/101732872/4c9d31ac-2408-4d6b-94d1-863d1dfb389d
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
